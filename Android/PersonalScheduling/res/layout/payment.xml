@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/managepaymentslogo" />
+        
+         <TableRow>
+        <TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+<TableRow android:gravity="center">
+    <ImageButton
+        android:id="@+id/meetadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/payadd" />
+
+    <ImageButton
+        android:id="@+id/meetmodify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paymodify" />
+</TableRow>
+<TableRow android:gravity="center">
+    <ImageButton
+        android:id="@+id/meetdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paydelete" />
+
+    <ImageButton
+        android:id="@+id/meetlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paylist" />
+</TableRow>
+<TableRow android:gravity="center">
+    <ImageButton
+        android:id="@+id/meetmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paymenu" />
+
+    <ImageButton
+        android:id="@+id/meetexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/payexit" />
+</TableRow>
+
+
+</TableLayout>

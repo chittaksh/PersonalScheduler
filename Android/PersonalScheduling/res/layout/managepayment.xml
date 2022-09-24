@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow ><TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/payentrylogo" />
+    
+   <TableRow android:gravity="center">
+        
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_span="3"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+    </TableRow>
+    
+<TableRow android:gravity="center">
+    
+
+
+<Spinner
+    android:id="@+id/spinnerpdt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:width="5px" />
+
+
+    <Spinner
+        android:id="@+id/spinnerpmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="10px" />
+
+
+    <Spinner
+        android:id="@+id/spinnerpyr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="10px" />
+    
+     </TableRow>
+      <TableRow android:gravity="center">
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left"
+      android:layout_span="3"
+      android:text="Time"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+</TableRow>
+
+    <TableRow android:gravity="center">
+      
+
+
+        <Spinner
+            android:id="@+id/spinnerphr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:width="5px" />
+
+
+          <Spinner
+              android:id="@+id/spinnerpmin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:width="10px" />
+
+   <Spinner
+       android:id="@+id/spinnerp1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:entries="@array/time_arrays"
+       android:prompt="@string/time_prompt"
+       android:width="10px" />
+         
+    </TableRow>
+   
+
+   <TableRow
+       android:layout_gravity="center_horizontal"
+       android:gravity="center" >
+    
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+           android:layout_span="3"
+        android:text="Payment"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  </TableRow>
+    <TableRow android:gravity="center">
+
+
+
+    <EditText
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:inputType="textMultiLine"
+        android:width="80px"
+         android:layout_span="3"
+         />
+
+</TableRow>
+    
+ <TableRow ><TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+       <TableRow android:gravity="center">
+           <ImageButton
+        android:id="@+id/submitpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paysavebtn" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paycancelbtn" />
+           
+       </TableRow>
+
+    
+
+</TableLayout>

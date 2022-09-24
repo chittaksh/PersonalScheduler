@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <TableRow ><TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/meetentrylogo" />
+    
+    
+    <TableRow android:gravity="center">
+        
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_span="3"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+    </TableRow>
+    
+<TableRow android:gravity="center">
+    
+
+
+<Spinner
+    android:id="@+id/spinnermdt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:width="5px" />
+
+
+    <Spinner
+        android:id="@+id/spinnermmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="10px" />
+
+
+    <Spinner
+        android:id="@+id/spinnermyr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="10px" />
+    
+     </TableRow>
+      <TableRow android:gravity="center">
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left"
+      android:layout_span="3"
+      android:text="Time"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+</TableRow>
+
+    <TableRow android:gravity="center">
+      
+
+
+        <Spinner
+            android:id="@+id/spinnermhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:width="5px" />
+
+
+          <Spinner
+              android:id="@+id/spinnermmin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:width="10px" />
+
+   <Spinner
+       android:id="@+id/spinnerm1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:entries="@array/time_arrays"
+       android:prompt="@string/time_prompt"
+       android:width="10px" />
+         
+    </TableRow>
+   
+
+   <TableRow
+       android:layout_gravity="center_horizontal"
+       android:gravity="center" >
+    
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+           android:layout_span="3"
+        android:text="Meeting"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  </TableRow>
+    <TableRow android:gravity="center">
+
+        <EditText
+            android:id="@+id/meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+</TableRow>
+ <TableRow ><TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+       <TableRow android:gravity="center">
+           <ImageButton
+        android:id="@+id/submitmeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meetsavebtn" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meetcanclebtn" />
+           
+       </TableRow>
+    
+    
+
+</TableLayout>

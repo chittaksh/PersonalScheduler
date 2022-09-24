@@ -1,0 +1,272 @@
+/* 
+    Document   : newcss
+    Created on : Feb 3, 2010, 2:02:57 PM
+    Author     : mumbaiindians
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body
+{
+   /* background-color:  #e6e5e5;
+    background-color: #d0d0d0;*/
+    background-color: RGB(207,207,207);
+    background-color: RGB(255,243,204);
+    /*background-color: #cccccc;*/
+    background-color:white;
+      background-color: RGB(255,243,204);
+      background-color: RGB(255,247,217);
+      background-color: RGB(255,248,221);
+         background-color:white;
+         
+    font-size: 13px;
+    font-family:tahoma;
+}
+#userpannel
+{
+    margin-right:10px;
+}
+img
+{
+    border: none;
+}
+#main
+{
+ /*  border: 2px dashed rgb(97,131,231) ; 
+   border: 2px double rgb(133,191,37) ;
+   border: 2px dashed rgb(97,131,231) ;  */
+    width:70%;
+     border-top: none ; 
+     border-bottom:nont;
+    background-color: white;
+    text-align: center;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+#sidebar  {
+ background-color: white;
+ margin-left:15%;
+ margin-top:-7px;
+  margin-bottom:-7px;
+ text-align: left;
+ text-indent:20px;     
+ width:270px; 
+  
+   
+}
+table
+{
+    text-align: left;
+}
+.leftcolumn{
+    float: left;
+    width: 40%;
+}
+.rightcolumn
+{
+    margin-left: 40%;
+    
+}
+#sidebar li
+{
+   
+    border-bottom:2px dashed rgb(230,129,58);
+    color: navy;
+    font-size: 13px;
+    font-family: tahoma;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style-image: url('../images/obullet.gif');
+    vertical-align: middle;
+} 
+#sidebar li a:hover 
+{
+    background:  rgb(255, 201, 13) ; 
+    display:block;
+    color:Navy; 
+    font-weight: normal;
+}
+#menu
+{
+    background-color: rgb(255, 201, 13);
+    color: wheat;
+    width: 69%;
+    height: 25px;
+    border-style: groove;
+    border-width: 6px;
+    border-color: rgb(230,129,58);
+}
+#menustrip  
+{
+    padding:0;  
+    margin:0; 
+    display:block;
+  background:gray;
+  color:white;
+  font-weight: bold;
+     
+    font-family: arial, helvetica, sans-serif; 
+    white-space:nowrap; 
+    list-style-type:none;  
+}
+#menustrip li {
+
+    display:inline;  
+}
+
+#menustrip li a 
+{
+    padding:0.2em 1em; 
+    background:  rgb(255, 201, 13) ;  
+    color:#000; 
+    text-decoration:none; 
+    float:right;  
+   
+}
+#menustrip li a:hover 
+{
+    background: rgb(230,129,58); 
+    color:#fff; 
+}
+.strip
+{
+    background-color: gray;
+}
+.mailtextbox
+{
+    width:498px;
+     border-style:groove ;
+   
+      border-color: RGB(192,192,192);
+      border-color: RGB(207,207,207);
+}
+.mailcombo
+{
+     width:500px;
+      border-style:groove ;
+      height:28px;
+      border-color: RGB(192,192,192);
+      border-color: RGB(207,207,207);
+}
+h2
+ { 
+  display: block;
+   background-color:#E6813A ;
+  color:white;
+  font-family:Trebuchet MS;
+  line-height:27px;
+  font-size:20px;
+  width:400px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+h3
+ { 
+  display:block;
+  background:antiquewhite;
+  color:brown;
+  font-family:Trebuchet MS;
+  line-height:20px;
+  font-size:15px;
+  width:460px;
+  text-align:center;
+}
+hr
+{
+    color:red;
+}
+.select
+{
+    width:150px;
+}
+td
+{
+    
+    
+    font-family:verdana;
+    font-size:12px;
+    
+    
+    
+}
+th
+{
+    color:White;
+    font-family:trebuchet ms;
+    font-size:14px;
+}
+
+
+a
+{
+text-decoration:none;
+font-family:tahoma;
+font-size:13px;
+color:blue;
+}
+a:hover
+{
+    color:red;
+}
+ulstyle
+{
+    list-style-image: url('img/bullet.gif');
+    
+}
+.tableStyle
+{
+    /*background-color: white;*/
+   
+    border-color: maroon;
+    border-style:solid;
+    
+}
+.divStyle
+{
+    background-color: white;
+    border-color: maroon;
+    border-style:groove;
+    width:500px;
+    align:center;
+}
+.textbox
+{
+    width:205px;
+     border-style:groove ;
+    border-width: 1px;
+      border-color: RGB(192,192,192);
+      border-color: RGB(207,207,207);
+      border-color:rgb(230,129,58);
+}
+ .combo
+{
+    width:210px;
+    height:23px;
+    border-width: 1px;
+     border-style:groove ;
+     border-color: rgb(230,129,58);
+}
+.buttonStyle
+{
+      
+     background-color: #FFC90D;
+    display: block;
+ 
+   
+    color:Black;
+    font-weight: bold;
+    line-height: 30px;
+    ruby-align: center;
+    text-decoration: none;
+     
+ 
+}

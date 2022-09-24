@@ -1,0 +1,22 @@
+create database scheduledb;
+
+use scheduledb;
+
+create table users(
+userid varchar(100),
+usernm varchar(100),
+pass varchar(100),
+sques varchar(100),
+sans varchar(100)
+);
+
+create table schedules(
+sid integer primary key,
+schtype varchar(80),
+date integer,
+month integer,
+year integer,
+activity varchar(300),
+remember varchar(200),
+status varchar(80)
+);

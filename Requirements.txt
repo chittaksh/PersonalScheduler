@@ -1,0 +1,17 @@
+create table schedules(sid int primary key,
+schtype varchar(80) not null,
+date int not null,
+month int not null,
+year int not null,
+activity varchar(300) not null,
+remember varchar(200) not null,
+status varchar(80) not null,
+stime varchar(100) not null,
+userid varchar(100) not null);
+
+
+create table users(userid varchar(100) primary key,
+usernm varchar(100) not null,
+pass varchar(100) not null,
+sques varchar(100) not null,
+sans varchar(100) not null);

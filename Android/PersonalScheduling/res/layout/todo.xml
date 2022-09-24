@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/managetodo" />
+ 
+<TableRow ><TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</TableRow>
+<TableRow android:gravity="center">
+<ImageButton
+    android:id="@+id/btntodoadd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/add" />
+    <ImageButton
+        android:id="@+id/btntodomodify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/modify" />
+</TableRow>
+<TableRow android:gravity="center" >
+    <ImageButton
+        android:id="@+id/btntododelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete" />
+    <ImageButton
+        android:id="@+id/btntodolist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/list" />
+</TableRow>
+<TableRow android:gravity="center">
+    
+    <ImageButton
+        android:id="@+id/btntodomenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu" />
+    <ImageButton
+        android:id="@+id/btntodoexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit" />
+
+    
+</TableRow>
+
+
+</TableLayout>
